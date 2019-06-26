@@ -1,0 +1,3 @@
+spring.application.name=sip-gateway
+server.port=9000
+env=gate
