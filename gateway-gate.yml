@@ -20,5 +20,5 @@ spring:
    org.springframework.cloud.gateway: debug
   spring:
    redis:
-    host: 10.6.50.122
+    host: 127.0.0.1
     port: 6379
