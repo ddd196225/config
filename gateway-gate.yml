@@ -18,3 +18,7 @@ spring:
 #logging:
   level:
    org.springframework.cloud.gateway: debug
+spring:
+  redis:
+    host: 10.6.50.122
+    port: 6379
