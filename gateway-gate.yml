@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: v1
+          uri: lb://PRODUCT
+          order: 2
+          predicates:
+            - Path=/msg
+#            - Weight=service1,50
+
+        - id: v2
+          uri: lb://PRODUCT01
+          order: 5
+          predicates:
+            - Path=/msg
+#            - Weight=service1,50
+logging:
+  level:
+   org.springframework.cloud.gateway: debug
