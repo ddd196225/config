@@ -1,7 +1,7 @@
 spring:
   redis:
    port: 8761
-   host: 127.0.0.1
+   host: 127.0.0.9
    datebate：3
   cloud:
     gateway:
