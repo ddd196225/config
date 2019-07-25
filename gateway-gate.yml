@@ -1,4 +1,7 @@
 spring:
+  redis:
+   port: 8761
+   host: 10.6.50.122
   cloud:
     gateway:
       routes:
