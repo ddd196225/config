@@ -6,7 +6,7 @@ spring:
           uri: lb://PRODUCT
           order: 2
           predicates:
-            - Path=/msg
+            - Path=/r/msg
 #            - Weight=service1,50
 
         - id: v2
